@@ -4,7 +4,7 @@ It uses .NET Standard.
   
 `Lehmer.Random` is a pseudo-random number generator and is **not** cryptographically secure.  
 
-This the algorithm used in `Lehmer.Random` is [Javidx9](https://www.onelonecoder.com/index.html)'s implementation of the Lehmer random number generator converted from C++ to C#. Javidx9 has an excellent [video](https://www.youtube.com/watch?v=ZZY9YE7rZJw) explaining some of the shortcomings of other RNGs for use in procedural generation, and also demonstrates the use of the Lehmer RNG to generate a universe.  
+The algorithm used in `Lehmer.Random` is [Javidx9](https://www.onelonecoder.com/index.html)'s implementation of the Lehmer random number generator converted from C++ to C#. Javidx9 has an excellent [video](https://www.youtube.com/watch?v=ZZY9YE7rZJw) explaining some of the shortcomings of other RNGs for use in procedural generation, and also demonstrates the use of the Lehmer RNG to generate a universe.  
   
 `Lehmer.Random` is intended to be easy to use and mirrors the functionality of `System.Random`.  
 Some additional method signatures have been added to improve the usability of the RNG. For example, `NextDouble()` has two additional signatures that allow a range to be passed.
