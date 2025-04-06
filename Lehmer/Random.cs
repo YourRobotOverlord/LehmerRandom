@@ -190,7 +190,7 @@
 
         // Pseudo-random number generator based on the Lehmer Algorithm
         // and javidx9's implementation:
-        // https://github.com/OneLoneCoder/olcPixelGameEngine/blob/master/Videos/OneLoneCoder_PGE_ProcGen_Universe.cpp
+        // https://github.com/OneLoneCoder/Javidx9/blob/master/PixelGameEngine/SmallerProjects/OneLoneCoder_PGE_ProcGen_Universe.cpp
         internal static uint Rnd(uint seed)
         {
             seed += 0xe120fc15;
